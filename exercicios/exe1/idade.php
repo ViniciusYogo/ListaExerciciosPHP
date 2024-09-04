@@ -13,7 +13,7 @@
 
         <?php
 
-        $nome = $_POST['inputNome'];
+        $nome = $_POST["inputNome"];
         $email = $_POST["inputEmail"];
         $idade = $_POST["inputIdade"];
 

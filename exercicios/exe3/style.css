@@ -2,9 +2,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("12b23a7752e8a7a4464c1ff5e596237f.gif");
-    min-height: 100vh;
-
+    background: url("1503263487_LoneBeneficialBagworm.gif");
+    min-height:100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 form{
