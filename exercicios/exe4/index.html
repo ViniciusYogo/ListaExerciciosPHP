@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="calculo.php" method="post">
+        <h1>Calcular</h1>
+        <br>
+        <label>Primeiro número</label>
+        <input type="number" name="num1">
+        <br>
+        <label>Segundo número</label>
+        <input type="number" name="num2">
+        <br>
+        <br>
+        <select name="calculo" required>
+            <option disabled selected>Selecione o calculo que deseja realizar</option>
+            <option>Somar</option>
+            <option>Subtrair</option>
+            <option>Multiplicar</option>
+            <option>Dividir</option>
+        </select>
+        <br><br>
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>

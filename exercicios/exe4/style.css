@@ -2,7 +2,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("12b23a7752e8a7a4464c1ff5e596237f.gif");
+    background: url('bpxxqqvps4h91.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
     min-height: 100vh;
 
 }
@@ -17,6 +19,7 @@ form{
     flex-direction: column;
     gap: 2px;
     border: 2px solid black;
+    
     border-radius: 15px;
     backdrop-filter: blur(15px);
 }
@@ -31,6 +34,8 @@ div{
     flex-direction: column;
     gap: 2px;
     border: 2px solid black;
+    
     border-radius: 15px;
     backdrop-filter: blur(15px);
 }
+

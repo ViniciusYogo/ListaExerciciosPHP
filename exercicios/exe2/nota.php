@@ -17,10 +17,10 @@
         if ($nota <= 10 and $nota >= 0) {
             switch ($nota) {
                 case 10:
-                    echo "<H1>Nota A</H1>";
+                    echo "<h1>Nota A</h1>";
                     break;
                 case 9:
-                    echo "<H1>Nota B</H1>";
+                    echo "<h1>Nota B</h1>";
                     break;
                 case 8 or 7:
                     echo "Nota C";
