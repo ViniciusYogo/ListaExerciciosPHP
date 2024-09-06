@@ -13,14 +13,20 @@
         <select name="opcao">
             <option disabled selected>Escolha uma opção</option>
             <option  value="1">1- Ver Saldo</option>
-            <option value="2">2- Depositar</option>
+            <option value="2" onselect="mudar()">2- Depositar</option>
             <option value="3">3- Sacar</option>
             <option value="4">4- Sair</option>
         </select>
         <br>
         <input type="number" class="valor">
         <br>
-        <button type="submit">Escolher</button>
+        <button type="submit" onclick="mudar()">Escolher</button>
     </form>
+
+    <script>
+        function mudar(){
+            console.log('oi')
+        }
+    </script>
 </body>
 </html>
