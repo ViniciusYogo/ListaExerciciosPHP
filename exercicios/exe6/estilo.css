@@ -9,7 +9,7 @@ body{
 
 }
 
-form{
+.formulario{
     color: #fff;
     height: 350px;
     width: 250px;
@@ -19,28 +19,37 @@ form{
     flex-direction: column;
     gap: 2px;
     border: 2px solid black;
-    
     border-radius: 15px;
     backdrop-filter: blur(15px);
 }
 
 .valor{
     opacity: 0;
+
 }
 
 
 
-div{
+.aparecendo{
+    display: flex;
     color: #fff;
     height: 350px;
     width: 550px;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2px;
     border: 2px solid black;
-    
     border-radius: 15px;
     backdrop-filter: blur(15px);
+}
+
+
+.apagado{
+    display:none;
+}
+
+
+h1{
+    color: #fff;
 }

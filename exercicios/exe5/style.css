@@ -34,7 +34,6 @@ div{
     flex-direction: column;
     gap: 2px;
     border: 2px solid black;
-    
     border-radius: 15px;
     backdrop-filter: blur(15px);
 }
